@@ -12,18 +12,21 @@ Ele realiza um request para pegar a cotação atual de cada moeda pelo Exchange 
 ### Funcionalidade do Projeto
 O projeto funciona com apenas 6 possibilidades de conversão. Pretende-se, futuramente, dar mais possibilidades ao usuário.
 
+### Versões
+
+#### v0.0 - 09/06/2024
+- Lançamento da primeira versão;
+- Funcionalidade em, somente, 6 moedas;
+
+#### Atualizações futuras:
+- Transformar a conversão em uma função, já que se repete várias vezes;
+- Pensar em uma possibilidade que não necessite o uso do Switch/Case.
+- Permitir maior liberdade ao usuário (ao invés de ter opções de conversão, ele pode escolher a moeda inicial e a moeda a ser convertida).
+
 ### Fontes e apoios
 - Cursos da Alura;
 - Exchange Rate;
 - Documentação Gson.
-
-### Possíveis atualizações futuras
-#### No código:
-- Transformar a conversão em uma função, já que se repete várias vezes;
-- Pensar em uma possibilidade que não necessite o uso do Switch/Case.
-
-#### Nas funcionalidades:
-- Permitir maior liberdade ao usuário (ao invés de ter opções de conversão, ele pode escolher a moeda inicial e a moeda a ser convertida).
 
 ### Autor do Projeto
 #### Júlio Brito:
