@@ -1,13 +1,6 @@
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.layout.StackPane;
-import javafx.scene.text.Font;
-import javafx.scene.text.Text;
-import javafx.stage.Stage;
-
 import java.io.IOException;
 
-public class Main extends Application {
+public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
 
 //        int menu = 0;
@@ -118,24 +111,7 @@ public class Main extends Application {
 //            }
 //        }
 
-        launch(args);
-
     }
 
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("Conversor de moedas");
 
-        StackPane layout = new StackPane();
-        Scene scene = new Scene(layout, 1000, 750);
-
-        Text t = new Text("Seja bem vindo!");
-        t.setFont(new Font(20));
-
-        layout.getChildren().add(t);
-
-        primaryStage.setScene(scene);
-        primaryStage.show();
-
-    }
 }
